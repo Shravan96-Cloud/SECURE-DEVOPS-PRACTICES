@@ -35,7 +35,7 @@ SonarQube is also configured separately to demonstrate static code analysis setu
 The CI/CD pipeline is defined using GitHub Actions.  
 It includes an OWASP ZAP Baseline Scan step for dynamic security testing.
 
-![Workflow File](images/ss3-workflow-file.png)
+![Workflow File](images/workflow-file.png)
 
 ---
 
@@ -43,7 +43,7 @@ It includes an OWASP ZAP Baseline Scan step for dynamic security testing.
 
 After pushing the code, the pipeline starts running automatically.
 
-![Pipeline Running](images/ss4-pipeline-running.png)
+![Pipeline Running](images/pipeline-running.png)
 
 ---
 
@@ -53,7 +53,7 @@ The pipeline completes after executing all steps.
 In this case, the pipeline failed due to security-related warnings detected by OWASP ZAP.  
 This behavior is expected in a Secure DevOps pipeline.
 
-![Pipeline Result](images/ss5-pipeline-result.png)
+![Pipeline Result](images/pipeline-result.png)
 
 ---
 
@@ -66,7 +66,7 @@ OWASP ZAP scanned the running application and detected multiple security warning
 
 This confirms that the application contains security gaps that should be addressed.
 
-![OWASP ZAP Scan](images/ss6-owasp-zap-scan.png)
+![OWASP ZAP Scan](images/owasp-zap-scan.png)
 
 ---
 
@@ -75,7 +75,7 @@ This confirms that the application contains security gaps that should be address
 SonarQube was set up locally using Docker to demonstrate static code analysis configuration.  
 The project was created successfully in SonarQube, confirming that the static analysis tool is ready for use.
 
-![SonarQube Project](images/ss7-sonarqube-project.png)
+![SonarQube Project](images/sonarqube-project.png)
 
 ---
 
